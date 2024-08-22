@@ -7,7 +7,6 @@ body, html {
     width: 100%;
     height: 100%;
     background-color: #F8F6F2;
-    font-family: 'Merriweather', serif;
 }
 
 header {
@@ -84,6 +83,20 @@ a.btn:hover {
     max-width: 1000px;
 }
 
+@keyframes scale-a-lil {
+    from {
+      scale: .5;
+    }
+  }
+    
+  @media (prefers-reduced-motion: no-preference) {
+    .content-item {
+      animation: scale-a-lil linear both;
+      animation-timeline: view();
+      animation-range: 25vh 75vh;
+    }
+  }
+
 .content-item img {
     width: 90%;
     height: auto;
@@ -118,6 +131,16 @@ a.btn:hover {
 
 .content-item a:hover {
     font-size: 1.2em;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    background-color: #e4e2de;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 2px;
 }
 
 /* Media Queries for Larger Screens */

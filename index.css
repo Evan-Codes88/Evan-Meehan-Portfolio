@@ -136,6 +136,16 @@ body {
     background-color: #2264FF;
 }
 
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    background-color: #e4e2de;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 2px;
+}
+
 /* Media queries for smaller screens */
 
 @media (max-width: 768px) {
