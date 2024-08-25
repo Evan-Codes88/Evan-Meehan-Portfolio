@@ -105,15 +105,15 @@ a.btn:hover {
 
 /* Individual Background Images */
 .rounded-rectangle1 {
-    background-image: url(Images/portfolio\ website.png); 
+    background-image: url(Images/drawings/LevelTesting.PNG); 
 }
 
 .rounded-rectangle2 {
-    background-image: url(Images/drawings/BTS\ Coding.png); 
+    background-image: url(Images/drawings/SpringComplete.PNG); 
 }
 
 .rounded-rectangle3 {
-    background-image: url(Images/drawings/BTS\ Header.png); 
+    background-image: url(Images/drawings/FlowerCreation.PNG); 
 }
 
 /* Footer */
@@ -162,7 +162,7 @@ footer {
 }
 
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     nav .logo {
         height: 80px;
         padding-right: 50px;
